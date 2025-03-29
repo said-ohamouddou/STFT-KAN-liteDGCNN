@@ -1,5 +1,0 @@
-Best test accuracy: 0.7194
-Best balanced accuracy: 0.7016
-Best kappa: 0.6472
-At best accuracy epoch - balanced acc: 0.7016, kappa: 0.6472
-Total training time: 334.2270 s
