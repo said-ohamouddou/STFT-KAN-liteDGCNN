@@ -8,8 +8,8 @@ We propose a new **Kolmogorov-Arnold Network (KAN)**, called **STFT-KAN**, which
 
 We have two sections: the first section [STFT-KAN Benchmarking](#stft-kan-benchmarking) focuses on evaluating STFT-KAN on general tasks like MNIST digit classification. The second section [Paper Implementation Code](#paper-implementation-code) details the method introduced in our paper, where STFT-KAN is applied to 3D point cloud classification of tree species using Dynamic Graph CNN (DGCNN).
 
+### Paper: [Paper link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5197854)
 ---
-
 ## STFT-KAN Benchmarking
 
 ### STFT-KAN on MNIST
@@ -43,12 +43,13 @@ This table represents the results with different parameter combinations for STFT
 |STFTKANLayer(20,60,10) |27        |0.9814             |0.9747            |118234    |65.11             |
 |STFTKANLayer(12,60,5)  |31        |0.9749             |0.9685            |140090    |89.28             |
 |STFTKANLayer(40,160,20)|35        |0.9728             |0.9687            |93034     |83.69             |
-|**STFTKANLayer(10,20,20)** |37        |0.9818             |**0.9728**            |**32674**     |55.24             |
+|**STFTKANLayer(10,20,20)** |37        |**0.9818**             |**0.9728**            |**32674**     |**55.24**             |
 |STFTKANLayer(5,20,20)  |39        |0.9688             |0.9643            |16374     |53.50             |
 |STFTKANLayer(5,20,25)  |37        |0.9603             |0.9563            |13074     |53.21             |
 |STFTKANLayer(5,20,22)  |34        |0.9647             |0.9615            |15094     |52.89             |
 
 We can see that even though STFT-KAN does not use nonlinear complex transformations, we can find hyperparameters that minimize the parameter count compared to other KANs, while still achieving competitive accuracy with MLP.
+ ---
 
 ## Paper implementation code
 
