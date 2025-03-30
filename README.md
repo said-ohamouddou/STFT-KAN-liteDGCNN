@@ -48,7 +48,7 @@ This table represents the results with different parameter combinations for STFT
 |STFTKANLayer(5,20,25)  |37        |0.9603             |0.9563            |13074     |53.21             |
 |STFTKANLayer(5,20,22)  |34        |0.9647             |0.9615            |15094     |52.89             |
 
-We can see that even though STFT-KAN does not use nonlinear complex transformations, we can find hyperparameters that minimize the parameter count compared to other KANs, while still achieving competitive accuracy with MLP.
+#### We can see that even though STFT-KAN does not use nonlinear complex transformations, we can find hyperparameters that minimize the parameter count compared to other KANs, while still achieving competitive accuracy with MLP.
  ---
 
 ## Paper implementation code
