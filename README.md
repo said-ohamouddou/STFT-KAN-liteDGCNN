@@ -16,8 +16,8 @@ We have two sections: the first section [STFT-KAN Benchmarking](#stft-kan-benchm
 
 To experiment with **STFT-KAN** on a general task like **MNIST digit classification**, execute:
 ```bash
-cd STFT-KAN-MNIST  
-python stft-kan-mnist.py
+cd "STFT-KAN Benchmarking"  
+python mnist.py
 ```
 ## Paper implementation code
 
