@@ -90,5 +90,5 @@ If you use this code in your research, please cite:
   title     = {Introducing the Short-Time Fourier Kolmogorov Arnold Network: A Dynamic Graph CNN Approach for Tree Species Classification in 3D Point Clouds},
   year      = {2025},
   month     = {March 29},
-  note      = {Available at SSRN: \url{https://ssrn.com/abstract=}},
+  note      = {Available at SSRN: \url{[https://ssrn.com/abstract=](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5197854)}},
 }
