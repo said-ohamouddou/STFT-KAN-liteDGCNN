@@ -86,10 +86,12 @@ python bayesian_optimization.py
 ### Citation
 If you use this code in your research, please cite:
 ```bibtex
-@article{ohamouddou2025STFKAN,
-  author    = {Said Ohamouddou and Mohamed Ohamouddou and Rafik Lasri and Hanaa El Afia and Raddouane Chiheb and Abdellatif El Afia},
-  title     = {Introducing the Short-Time Fourier Kolmogorov Arnold Network: A Dynamic Graph CNN Approach for Tree Species Classification in 3D Point Clouds},
-  year      = {2025},
-  month     = {March 29},
-  note      = {Available at SSRN: \url{[https://ssrn.com/abstract=](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5197854)}},
+@misc{ohamouddoua2025introducingshorttimefourierkolmogorov,
+      title={Introducing the Short-Time Fourier Kolmogorov Arnold Network: A Dynamic Graph CNN Approach for Tree Species Classification in 3D Point Clouds}, 
+      author={Said Ohamouddou and Mohamed Ohamouddou and Rafik Lasri and Hanaa El Afia and Raddouane Chiheb and Abdellatif El Afia},
+      year={2025},
+      eprint={2503.23647},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.23647}, 
 }
