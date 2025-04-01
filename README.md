@@ -8,7 +8,7 @@ We propose a new **Kolmogorov-Arnold Network (KAN)**, called **STFT-KAN**, which
 
 We have two sections: the first section [STFT-KAN Benchmarking](#stft-kan-benchmarking) focuses on evaluating STFT-KAN on general tasks like MNIST digit classification. The second section [Paper Implementation Code](#paper-implementation-code) details the method introduced in our paper, where STFT-KAN is applied to 3D point cloud classification of tree species using Dynamic Graph CNN (DGCNN).
 
-### Paper: [Paper link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5197854)
+### Paper: [Paper link](https://arxiv.org/abs/2503.23647)
 ---
 ## STFT-KAN Benchmarking
 
