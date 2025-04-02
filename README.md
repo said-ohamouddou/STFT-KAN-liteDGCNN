@@ -24,7 +24,7 @@ In this example, we use the same architecture for all layers to classify MNIST d
 This table represents the results with different parameter combinations for STFT-KAN: STFTKANlayer (grid_size, window_size, stride).
 
 
-|LayerType              |Best_Epoch|Best_Train_Accuracy|Best_Test_Accuracy|Num_Params|Train_Time_sec    |
+|Layer_Type              |Best_Epoch|Best_Train_Accuracy|Best_Test_Accuracy|Num_Params|Train_Time_sec    |
 |-----------------------|----------|-------------------|------------------|----------|------------------|
 |MLP                    |28        |0.9961             |**0.9811**            |**33482**     |33.37             |
 |KANLayer               |40        |0.9998             |0.9801            |66966     |48.80             |
