@@ -1,0 +1,4 @@
+Model,Best_Test_Accuracy,Training_Time_seconds,Parameter_Count,Training_Speed_samples_per_sec
+STFT-KAN (gridsize=64),92.35,8.306925535202026,93708,28891.555483789845
+STFT-KAN (gridsize=15),63.2,7.855716228485107,21972,30551.001718945936
+Logistic Regression,94.55,5.964435815811157,49164,40238.508286698736

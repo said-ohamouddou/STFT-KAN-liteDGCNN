@@ -1,0 +1,87 @@
+LEARNED FREQUENCY MAGNITUDE SPECTRUM DATA
+==================================================
+
+INDIVIDUAL LAYER FREQUENCY MAGNITUDE TABLES (LaTeX format):
+============================================================
+
+LAYER ECL1 FREQUENCY MAGNITUDE TABLE:
+----------------------------------------
+\begin{tabular}{rr}
+\toprule
+Frequency_Bin & ECL1_Magnitude \\
+\midrule
+0.5000 & 1.2354 \\
+1.0000 & 0.3389 \\
+\bottomrule
+\end{tabular}
+
+
+LAYER ECL2 FREQUENCY MAGNITUDE TABLE:
+----------------------------------------
+\begin{tabular}{rr}
+\toprule
+Frequency_Bin & ECL2_Magnitude \\
+\midrule
+0.0333 & 0.7098 \\
+0.0667 & 0.7245 \\
+0.1000 & 0.7093 \\
+\bottomrule
+\end{tabular}
+
+
+LAYER FEL FREQUENCY MAGNITUDE TABLE:
+----------------------------------------
+\begin{tabular}{rr}
+\toprule
+Frequency_Bin & FEL_Magnitude \\
+\midrule
+0.0400 & 0.6227 \\
+0.0800 & 0.6287 \\
+0.1200 & 0.6288 \\
+0.1600 & 0.6272 \\
+\bottomrule
+\end{tabular}
+
+
+LAYER CL FREQUENCY MAGNITUDE TABLE:
+----------------------------------------
+\begin{tabular}{rr}
+\toprule
+Frequency_Bin & CL_Magnitude \\
+\midrule
+0.0063 & 1.2386 \\
+0.0125 & 0.3136 \\
+0.0187 & 0.1381 \\
+0.0250 & 0.0775 \\
+\bottomrule
+\end{tabular}
+
+
+LAYER STATISTICS TABLE (LaTeX format):
+----------------------------------------
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+Layer & Input_Dim & Output_Dim & Grid_Size & Window_Size & Max_Magnitude & Mean_Magnitude & Std_Magnitude & Spectral_Centroid & Entropy & Learning_Variance & Is_Learned \\
+\midrule
+ECL1 & 6 & 64 & 2 & 2 & 1.235357 & 0.787144 & 0.448212 & 0.607646 & 0.520885 & 0.513815 & True \\
+ECL2 & 64 & 128 & 3 & 30 & 0.724542 & 0.714542 & 0.007074 & 0.066658 & 1.098563 & 0.326454 & True \\
+FEL & 128 & 1024 & 4 & 25 & 0.628775 & 0.626838 & 0.002455 & 0.100107 & 1.386287 & 0.250254 & True \\
+CL & 2048 & 7 & 4 & 160 & 1.238593 & 0.441940 & 0.468051 & 0.009157 & 0.892266 & 0.264372 & True \\
+\bottomrule
+\end{tabular}
+
+
+DOMINANT FREQUENCIES TABLE (LaTeX format):
+----------------------------------------
+\begin{tabular}{lrrrrr}
+\toprule
+Layer & Dom_Freq_1 & Dom_Freq_2 & Dom_Freq_3 & Dom_Freq_4 & Dom_Freq_5 \\
+\midrule
+ECL1 & 0.5000 & 1.0000 & -- & -- & -- \\
+ECL2 & 0.0667 & 0.0333 & 0.1000 & -- & -- \\
+FEL & 0.1200 & 0.0800 & 0.1600 & 0.0400 & -- \\
+CL & 0.0063 & 0.0125 & 0.0187 & 0.0250 & -- \\
+\bottomrule
+\end{tabular}
+
+

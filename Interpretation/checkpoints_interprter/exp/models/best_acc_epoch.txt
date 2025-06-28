@@ -1,0 +1,2 @@
+Best accuracy model saved at epoch 140
+Accuracy: 0.748201

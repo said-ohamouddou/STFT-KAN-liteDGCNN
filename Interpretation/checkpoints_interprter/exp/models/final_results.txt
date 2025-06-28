@@ -1,0 +1,4 @@
+Best test accuracy: 0.7482
+At best accuracy epoch - balanced acc: 0.6972
+At best accuracy epoch - precision: 0.7433, recall: 0.6972, f1: 0.7065
+Total training time: 341.8261 s

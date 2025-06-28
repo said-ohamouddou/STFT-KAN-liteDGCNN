@@ -1,0 +1,56 @@
+CLASS FREQUENCY UNIQUENESS DATA
+========================================
+
+UNIQUENESS SCORES TABLE (LaTeX format):
+----------------------------------------
+\begin{tabular}{lrr}
+\toprule
+Class & Uniqueness_Score & Rank \\
+\midrule
+Pine & 0.101907 & 1 \\
+Ash & 0.095833 & 2 \\
+Oak & 0.083907 & 3 \\
+Beech & 0.073685 & 4 \\
+Spruce & 0.066610 & 5 \\
+Red Oak & 0.060939 & 6 \\
+Douglas fir & 0.060636 & 7 \\
+\bottomrule
+\end{tabular}
+
+
+PAIRWISE DISTANCES MATRIX (LaTeX format):
+---------------------------------------------
+\begin{tabular}{lrrrrrrr}
+\toprule
+ & Ash & Beech & Douglas fir & Oak & Pine & Red Oak & Spruce \\
+\midrule
+Ash & 0.000000 & 0.032080 & 0.080507 & 0.142781 & 0.165028 & 0.094625 & 0.059973 \\
+Beech & 0.032080 & 0.000000 & 0.049386 & 0.116055 & 0.137580 & 0.064263 & 0.042744 \\
+Douglas fir & 0.080507 & 0.049386 & 0.000000 & 0.073833 & 0.094658 & 0.021222 & 0.044211 \\
+Oak & 0.142781 & 0.116055 & 0.073833 & 0.000000 & 0.026318 & 0.056866 & 0.087587 \\
+Pine & 0.165028 & 0.137580 & 0.094658 & 0.026318 & 0.000000 & 0.075685 & 0.112172 \\
+Red Oak & 0.094625 & 0.064263 & 0.021222 & 0.056866 & 0.075685 & 0.000000 & 0.052973 \\
+Spruce & 0.059973 & 0.042744 & 0.044211 & 0.087587 & 0.112172 & 0.052973 & 0.000000 \\
+\bottomrule
+\end{tabular}
+
+
+UNIQUENESS ANALYSIS SUMMARY (LaTeX format):
+---------------------------------------------
+\begin{tabular}{llr}
+\toprule
+Metric & Value & Score \\
+\midrule
+Most_Unique_Class & Pine & 0.101907 \\
+Least_Unique_Class & Douglas fir & 0.060636 \\
+Average_Uniqueness & N/A & 0.077645 \\
+Std_Uniqueness & N/A & 0.015420 \\
+\bottomrule
+\end{tabular}
+
+
+INTERPRETATION GUIDE:
+--------------------
+- Higher scores = More distinctive frequency patterns
+- Lower scores = Similar to other classes
+- Score represents average distance from all other classes
